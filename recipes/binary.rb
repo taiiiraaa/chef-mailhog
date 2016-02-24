@@ -45,5 +45,6 @@ end
 
 # Setup runit service
 runit_service 'mailhog' do
+  log false
   default_logger true
 end
