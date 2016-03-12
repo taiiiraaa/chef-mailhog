@@ -1,15 +1,17 @@
 # chef-mailhog
 
-[![CK Version](http://img.shields.io/cookbook/v/mailhog.svg)](https://supermarket.getchef.com/cookbooks/mailhog)
-
-This cookbook installs [MailHog](https://github.com/mailhog/MailHog).
-
-This fork includes a change to fix the error from Vagrant Chef Zero shown below.
+####This fork fixes the error from Vagrant Chef Zero shown below.
 
 ```
 template[/etc/sv/mailhog/log/run] (/var/chef/cache/cookbooks/runit/libraries/provider_runit_service.rb line 143) had an error:
 Chef::Exceptions::FileNotFound: Cookbook 'mailhog' (0.1.0) does not contain a file at any of these locations:
 ```
+
+[![CK Version](http://img.shields.io/cookbook/v/mailhog.svg)](https://supermarket.getchef.com/cookbooks/mailhog)
+
+This cookbook installs [MailHog](https://github.com/mailhog/MailHog).
+
+
 
 Usage
 -----
